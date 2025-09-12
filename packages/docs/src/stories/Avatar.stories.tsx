@@ -1,7 +1,7 @@
 import type { StoryObj, Meta} from "@storybook/react-vite"
 
-import { Avatar } from "@ignite-ui/react"
-import type { AvatarProps } from "@ignite-ui/react"
+import { Avatar } from "@germano-ignite-ui/react"
+import type { AvatarProps } from "@germano-ignite-ui/react"
 
 export default {
   title: 'Data display/Avatar',

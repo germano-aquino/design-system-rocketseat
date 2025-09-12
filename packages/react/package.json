@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/react",
+  "name": "@germano-ignite-ui/react",
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
@@ -14,9 +14,9 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@germano-ignite-ui/eslint-config": "*",
+    "@germano-ignite-ui/tokens": "*",
+    "@germano-ignite-ui/ts-config": "*",
     "@types/react": "^19.1.12",
     "@types/react-dom": "^19.1.9",
     "react": "^19.1.1",

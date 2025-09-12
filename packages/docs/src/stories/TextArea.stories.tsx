@@ -1,7 +1,7 @@
 import type { StoryObj, Meta} from "@storybook/react-vite"
 
-import { Box, Text, TextArea } from "@ignite-ui/react"
-import type { TextAreaProps } from "@ignite-ui/react"
+import { Box, Text, TextArea } from "@germano-ignite-ui/react"
+import type { TextAreaProps } from "@germano-ignite-ui/react"
 
 export default {
   title: 'Typography/Text Area',
