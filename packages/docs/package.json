@@ -1,0 +1,46 @@
+{
+  "name": "@ignite-ui/docs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev-vite": "vite",
+    "build-vite": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "dependencies": {
+    "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@storybook/addon-a11y": "^9.1.5",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.3.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@storybook/addon-docs": "^9.1.5",
+    "@storybook/react-vite": "^9.1.5",
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.2",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "eslint-plugin-storybook": "^9.1.5",
+    "globals": "^16.3.0",
+    "react-docgen-typescript": "^2.4.0",
+    "storybook": "^9.1.5",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.4"
+  }
+}
