@@ -21,6 +21,15 @@ const config: StorybookConfig = {
   "framework": {
     "name": getAbsolutePath('@storybook/react-vite'),
     "options": {}
+  },
+  async viteFinal(config, { configType }) {
+    const { mergeConfig } = await import('vite')
+
+    if (configType === 'PRODUCTION') {
+      config.base = '/design-system-rocketseat'
+    }
+    
+    return mergeConfig(config, {})
   }
 };
 export default config;
